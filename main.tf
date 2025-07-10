@@ -10,3 +10,7 @@ resource "aws_iam_group" "MonitoringAdmins" {
   name = "MonitoringAdmins"
   path = "/users/"
 }
+
+provider "aws" {
+  region = "us-east-1"
+}
